@@ -24,7 +24,7 @@ function main()
     println("Initial Energy: ", E_T)
     println("Simulation Start!")
     tic()
-    montecarlo_loop(ncycle, coords, beta, E_T, boxl, boxl3)
+    montecarlo_loop(ncycle, coords, beta, E_T, boxl, boxl2)
     E_Final = detailed_ecalc(npart, coords, boxl, boxl2)
     toc()
 
